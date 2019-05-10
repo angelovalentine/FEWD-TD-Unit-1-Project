@@ -21,6 +21,14 @@ a:hover {
   color: #d6401ad8;
 }
 
+/* Copied and adapted from header .profile-image class from styles.css */
+
+.image {
+  margin-top: 10px;
+  width: 85%;
+  height: 85%;
+  border: 3px solid white;
+}
 /* Section Styles */
 
 .main-nav {
@@ -57,26 +65,15 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/florida.jpg') no-repeat center ;
+  background: url('images/selfie.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
-  width: 175px;
-  height: 175px;
-  border-radius: 50%;
-  border: 1px solid white;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(720deg);
-}
+
 .tag {
   color: whitesmoke;
   padding: 10px;
